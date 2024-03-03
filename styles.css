@@ -142,11 +142,11 @@ button.cta {
   transition: background-color 0.3s ease; 
 }
 
-/* Adjust button styles for smaller screens */
+
 @media screen and (max-width: 768px) {
   button.cta {
-      font-size: 3vw; /* Adjust font size for smaller screens */
-      width: 80%; /* Adjust width for smaller screens */
+      font-size: 3vw; 
+      width: 80%; 
   }
 }
 
@@ -158,7 +158,7 @@ button.cta {
   }
 }
 
-/* Change button background color on hover */
+
 button.cta:hover {
   background-color: #005f73;
   color: white;
@@ -166,13 +166,13 @@ button.cta:hover {
 
 section.hero ul li {
   text-decoration: none;
-  color: pink; /* Default color */
-  font-size: 25px; /* Default font size */
+  color: pink; 
+  font-size: 25px;
   transition: color 0.3s, font-size 0.3s;
-  font-weight: bold; /* Add transition effect for color and font size */
+  font-weight: bold; 
 }
 
-/* Change color and font size on hover */
+
 section.hero ul li:hover {
   color: violet; /* Change color on hover */
   font-size: 20px; /* Increase font size on hover */
