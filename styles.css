@@ -174,8 +174,8 @@ section.hero ul li {
 
 
 section.hero ul li:hover {
-  color: violet; /* Change color on hover */
-  font-size: 20px; /* Increase font size on hover */
+  color: violet; 
+  font-size: 20px; 
   font-weight: bold;
 }
 
