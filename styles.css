@@ -1,0 +1,181 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('revo-background.png');
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the background image */
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: pink;
+  font-size: 20px;
+}
+
+nav ul li :hover{
+    color:violet; /* Change the background color when the button is active or focused */
+    /* font-size: 30px; */
+  }
+
+.hero {
+  color: pink;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  margin-top: -30px;
+  font-size: 6vw; 
+  font-weight: bold;
+}
+
+.hero p {
+  margin-top: 50px;
+  font-size: 3vw; 
+  font-weight: bold;
+}
+
+button.cta {
+  width: 30vw;
+  height: 10vh;
+  font-size: 2vw;
+  border-radius: 20px;
+}
+
+.circle {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.circle:hover {
+  transform: rotateY(180deg);
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  background-image: url('revo-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: transform 0.3s;
+}
+
+.circle:hover .logo {
+  transform: rotateY(180deg);
+}
+
+/* footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 3px 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+      position: fixed;
+      bottom: 0;
+  }
+}
+
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin-right: 10px; /* Adjust spacing between icons */
+}
+
+.social-icons a:last-child {
+  margin-right: 0; /* Remove margin for the last icon */
+}
+
+footer .social-icons a:hover {
+  color: violet;
+}
+button.cta {
+  width: 30%; /* Adjust the width relative to the container */
+  max-width: 200px; /* Set a maximum width to prevent the button from becoming too wide */
+  height: 50px; /* Set a fixed height */
+  font-size: 1.5vw; /* Adjust the font size relative to the viewport width */
+  border-radius: 20px; /* Adjust the border radius */
+  margin: 20px; /* Add margin for spacing */
+  padding: 10px 20px; /* Add padding */
+  transition: background-color 0.3s ease; /* Add transition effect for hover */
+}
+
+/* Adjust button styles for smaller screens */
+@media screen and (max-width: 768px) {
+  button.cta {
+      font-size: 3vw; /* Adjust font size for smaller screens */
+      width: 80%; /* Adjust width for smaller screens */
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  button.cta {
+      font-size: 20px; 
+      width: 200px; 
+  }
+}
+
+/* Change button background color on hover */
+button.cta:hover {
+  background-color: #005f73;
+  color: white;
+}
+
+section.hero ul li {
+  text-decoration: none;
+  color: pink; /* Default color */
+  font-size: 25px; /* Default font size */
+  transition: color 0.3s, font-size 0.3s;
+  font-weight: bold; /* Add transition effect for color and font size */
+}
+
+/* Change color and font size on hover */
+section.hero ul li:hover {
+  color: violet; /* Change color on hover */
+  font-size: 20px; /* Increase font size on hover */
+  font-weight: bold;
+}
+
