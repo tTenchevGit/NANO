@@ -158,12 +158,10 @@ button.cta {
   }
 }
 
-
 button.cta:hover {
   background-color: #005f73;
   color: white;
 }
-
 section.hero ul li {
   text-decoration: none;
   color: pink; 
@@ -171,7 +169,6 @@ section.hero ul li {
   transition: color 0.3s, font-size 0.3s;
   font-weight: bold; 
 }
-
 
 section.hero ul li:hover {
   color: violet; 
